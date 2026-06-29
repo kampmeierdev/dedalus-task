@@ -12,7 +12,7 @@ Calculates the denomination for a given amount.
 dotnet run --project DedalusApi
 ```
 
-Swagger UI: http://localhost:5159/swagger
+Swagger UI: [http://localhost:5159/swagger](http://localhost:5159/swagger)
 
 ## Tests
 
