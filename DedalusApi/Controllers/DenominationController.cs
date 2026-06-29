@@ -18,7 +18,7 @@ public class DenominationController : ControllerBase
     /// Returns a denomination for an amount.
     /// </summary>
     /// <response code="200">Returns the denomination for the given amount.</response>
-    /// <response code="400">If the amount is lesser than 0 or if the amount has more than 2 decimal places.</response>
+    /// <response code="400">If the amount is lesser than or equal to 0 or if the amount has more than 2 decimal places.</response>
     [HttpPost]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
